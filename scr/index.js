@@ -4,7 +4,7 @@ const typeDefs = require('./infrastructure/graphql.import');
 const { combineResolvers } = require('apollo-resolvers');
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://teste:3qaFzc5Ckf2QiXU@cluster0.vxffj.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://YOUUSER:YOURPASSWOR@YOURCLUSTER/?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: false,
   });
